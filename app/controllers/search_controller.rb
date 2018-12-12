@@ -6,7 +6,7 @@ class SearchController < ApplicationController
       faraday.adapter Faraday.default_adapter
     end
 
-    response = @conn.get("/fuel_type=ELEC%26LPG&state=CO&limit=10&format=JSON&zip=80203")
+    response = @conn.get("?fuel_type=ELEC,LPG&state=CO&limit=10&format=JSON&zip=80203")
     results = JSON.parse(response.body, symbolize_names: true)
 
     @stations = results.map do |station|
