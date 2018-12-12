@@ -1,0 +1,152 @@
+{
+    "station_locator_url": "http://www.afdc.energy.gov/afdc/locator/stations/",
+    "total_results": 2,
+    "station_counts": {
+        "total": 8,
+        "fuels": {
+            "BD": {
+                "total": 0
+            },
+            "E85": {
+                "total": 0
+            },
+            "ELEC": {
+                "total": 8,
+                "stations": {
+                    "total": 2
+                }
+            },
+            "HY": {
+                "total": 0
+            },
+            "LNG": {
+                "total": 0
+            },
+            "CNG": {
+                "total": 0
+            },
+            "LPG": {
+                "total": 0
+            }
+        }
+    },
+    "fuel_stations": [
+        {
+            "access_code": "public",
+            "access_days_time": "MO: 12:00am-12:00am; TU: 12:00am-12:00am; WE: 12:00am-12:00am; TH: 12:00am-12:00am; FR: 12:00am-12:00am; SA: 12:00am-12:00am; SU: 12:00am-12:00am",
+            "access_detail_code": "KEY_ALWAYS",
+            "cards_accepted": null,
+            "date_last_confirmed": "2018-12-12",
+            "expected_date": null,
+            "fuel_type_code": "ELEC",
+            "groups_with_access_code": "Public - Card key at all times",
+            "id": 80053,
+            "open_date": null,
+            "owner_type_code": null,
+            "status_code": "E",
+            "station_name": "Wells Fargo Center",
+            "station_phone": "800-663-5633",
+            "updated_at": "2018-12-12T10:03:16Z",
+            "geocode_status": "GPS",
+            "latitude": 39.743995978817,
+            "longitude": -104.98452256243,
+            "city": "Denver",
+            "intersection_directions": "Facility parking fee will be accessed accordingly.  The stations are on level 2 of the garage.",
+            "plus4": null,
+            "state": "CO",
+            "street_address": "1700 Sherman Street",
+            "zip": "80203",
+            "country": "US",
+            "bd_blends": null,
+            "e85_blender_pump": null,
+            "ev_connector_types": [
+                "J1772"
+            ],
+            "ev_dc_fast_num": null,
+            "ev_level1_evse_num": null,
+            "ev_level2_evse_num": 4,
+            "ev_network": "SemaCharge Network",
+            "ev_network_web": "http://www.semacharge.com/",
+            "ev_other_evse": null,
+            "hy_is_retail": null,
+            "hy_status_link": null,
+            "lpg_primary": null,
+            "ng_fill_type_code": null,
+            "ng_psi": null,
+            "ng_vehicle_class": null,
+            "access_days_time_fr": null,
+            "intersection_directions_fr": null,
+            "bd_blends_fr": null,
+            "groups_with_access_code_fr": "Public - Carte-clé en tout temps",
+            "ev_network_ids": {
+                "station": [
+                    "1620"
+                ],
+                "posts": [
+                    "4405",
+                    "4406",
+                    "4407",
+                    "4408"
+                ]
+            }
+        },
+        {
+            "access_code": "public",
+            "access_days_time": "24 hours daily",
+            "access_detail_code": null,
+            "cards_accepted": null,
+            "date_last_confirmed": "2018-12-12",
+            "expected_date": null,
+            "fuel_type_code": "ELEC",
+            "groups_with_access_code": "Public",
+            "id": 105137,
+            "open_date": null,
+            "owner_type_code": null,
+            "status_code": "E",
+            "station_name": "CADACHARGEPOINT",
+            "station_phone": "888-758-4389",
+            "updated_at": "2018-12-12T10:06:20Z",
+            "geocode_status": "200-9",
+            "latitude": 39.723374,
+            "longitude": -104.984181,
+            "city": "Denver",
+            "intersection_directions": "GO EV1\nGO EV2",
+            "plus4": null,
+            "state": "CO",
+            "street_address": "290 Speer Blvd",
+            "zip": "80203",
+            "country": "US",
+            "bd_blends": null,
+            "e85_blender_pump": null,
+            "ev_connector_types": [
+                "J1772"
+            ],
+            "ev_dc_fast_num": null,
+            "ev_level1_evse_num": null,
+            "ev_level2_evse_num": 4,
+            "ev_network": "ChargePoint Network",
+            "ev_network_web": "http://www.chargepoint.com/",
+            "ev_other_evse": null,
+            "hy_is_retail": null,
+            "hy_status_link": null,
+            "lpg_primary": null,
+            "ng_fill_type_code": null,
+            "ng_psi": null,
+            "ng_vehicle_class": null,
+            "access_days_time_fr": null,
+            "intersection_directions_fr": null,
+            "bd_blends_fr": null,
+            "groups_with_access_code_fr": "Public",
+            "ev_network_ids": {
+                "posts": [
+                    "1:100547",
+                    "1:102063"
+                ],
+                "ports": [
+                    "1",
+                    "2"
+                ]
+            }
+        }
+    ]
+}
