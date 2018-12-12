@@ -8,7 +8,7 @@ class SearchController < ApplicationController
 
     response = @conn.get("?fuel_type=ELEC,LPG&state=CO&limit=10&format=JSON&zip=80203")
     results = JSON.parse(response.body, symbolize_names: true)
-
+require "pry"; binding.pry
     @stations = results.map do |station|
       Station.new(station)
     end

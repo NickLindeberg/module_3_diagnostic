@@ -7,7 +7,7 @@ class Station
               :access_times
 
   def initialize(attributes = {})
-    @name           = attributes["name"]
+    @name           = attributes["station_name"]
     @address        = attributes["address"]
     @fuel_type      = attributes["fuel_type"]
     @distance       = attributes["distance"]
