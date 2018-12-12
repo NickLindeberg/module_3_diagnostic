@@ -19,7 +19,7 @@ class Station
       faraday.headers["api_key"] = ENV["API_KEY"]
       faraday.adapter Faraday.default_adapter
     end
-
+require "pry"; binding.pry
     response = @conn.get("/fuel_type=ELEC%26LPG&state=CO&limit=10&format=JSON&zip=#{zip}")
     results = JSON.parse(response.body, symbolize_names: true)[:results]
 

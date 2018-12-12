@@ -1,6 +1,6 @@
 class SearchController < ApplicationController
 
   def index
-    @facade = UserSearchFacade.new(current_user)
+    @facade = SearchFacade.new(params[:zip])
   end
 end
